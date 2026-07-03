@@ -1,0 +1,47 @@
+body {
+    background-color: #0a0a1a; /* Deeper Dark Blue */
+    color: #e0e0e0; /* Softer white */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a33; /* Elegant header background */
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid #d4af37; /* Luxurious Gold Accent */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #d4af37; /* Gold color for main headings */
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #1a1a33; /* Match header for cohesive design */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Add more styles for profile elements like cards, buttons etc. */
+button {
+    background-color: #d4af37;
+    color: #0a0a1a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: # entrevistas; /* Slightly darker gold on hover */
+}
